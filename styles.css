@@ -1,0 +1,31 @@
+body {
+  background: #383838;
+  font-family: monospace;
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu .linkedin:hover {
+  color: #5ea6ee;
+}
+
+.menu .website:hover {
+  color: #ad70e9;
+}
+
+.menu .github:hover {
+  color: #e7c0a8;
+}
